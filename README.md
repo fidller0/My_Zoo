@@ -379,7 +379,7 @@ Kompilieren:
 
 
 ```powershell
-
+.\gradlew.bat run
 javac -d out (Get-ChildItem -Recurse src\\main\\java\\\*.java).FullName
 
 ```
